@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <header>
+      <div id="kakaVagy">
+        <h1>Kaka vagy?</h1>
+      </div>
+    </header>
+
+    <article>
+      <div id="tuddmeg">
+        <button class="button" onclick="kaka()">Tudd meg most!</button>
+      </div>
+
+      <div id="grat" hidden>
+        <h1>Gratulálok, Kaka vagy!</h1>
+      </div>
+
+      <div id="biztos" hidden>
+        <button class="button" onclick="tutu()">De biztos?</button>
+        <br />
+        <br />
+      </div>
+
+      <div id="szia" hidden>
+        <button onclick="Feri()" class="button">Rendben, viszlát!</button>
+        <br />
+        <br />
+      </div>
+
+      <div id="szia2" hidden>
+        <button onclick="Feri()" class="button">De igen, viszlát!</button>
+        <br />
+        <br />
+      </div>
+
+      <div id="tutu" hidden>
+        <input
+          class="box"
+          type="checkbox"
+          id="igen"
+          name="igen"
+          value="igen"
+          onclick="viszlat()"
+        />
+        <label for="igen"> Igen&nbsp;&nbsp;</label>
+
+        <input
+          class="box"
+          type="checkbox"
+          id="nem"
+          name="nem"
+          value="nem"
+          onclick="viszlat2()"
+        />
+        <label for="nem"> Nem</label>
+      </div>
+      <div>
+        <br />
+      </div>
+
+      <div id="milyenFeri" class="ferko" hidden onclick="csa()">
+        <h1>Milyen Feri?</h1>
+      </div>
+
+      <script src="script.js"></script>
+    </article>
+
+    <footer>
+      <div class="box-footer">
+        <a href="https://keresettferi.hu/" target="_blank">
+          <img
+            src="feri.png"
+            height="20px"
+            width="20px"
+            title="További tippekért kövess facebookon!"
+            alt="További tippekért kövess facebookon!"
+        /></a>
+        <p>
+          &copy; 2024 Tics királylány, webgyógyító programozó. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
